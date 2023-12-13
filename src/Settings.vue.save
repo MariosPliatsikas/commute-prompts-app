@@ -1,0 +1,126 @@
+mariospliatsikas@MacBook-Pro-2 src %  npm run serve
+
+> commute-prompts-app@0.1.0 serve
+> vue-cli-service serve
+
+ INFO  Starting development server...
+
+
+ ERROR  Failed to compile with 2 errors                               9:00:47 PM
+
+[eslint] 
+/Users/mariospliatsikas/commute-prompts-app/src/Settings.vue
+  1:1  error  Component name "Settings" should always be multi-word  vue/multi-word-component-names
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ error  in ./src/Settings.vue
+
+Module Error (from ./node_modules/vue-loader/dist/index.js):
+
+VueCompilerError: Single file component can contain only one <script> element
+at /Users/mariospliatsikas/commute-prompts-app/src/Settings.vue:30:1
+27 |    // component definition
+28 |  }
+29 |  </script>
+   |            ^
+30 |  <script>
+   |  ^^^^^^^^
+31 |  
+   |  ^
+32 |  export default {
+   |  ^^^^^^^^^^^^^^^^
+33 |    data() {
+   |  ^^^^^^^^^^
+34 |      return {
+   |  ^^^^^^^^^^^^
+35 |        preferenceOption1: false,
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+36 |        preferenceOption2: false,
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+37 |        // Add more data properties for additional preferences
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+38 |      };
+   |  ^^^^^^
+39 |    },
+   |  ^^^^
+40 |    methods: {
+   |  ^^^^^^^^^^^^
+41 |      savePreferences() {
+   |  ^^^^^^^^^^^^^^^^^^^^^^^
+42 |        // Implement logic to save preferences to the backend or local storage
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+43 |        console.log('Preferences saved:', this.preferenceOption1, this.preferenceOption2);
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+44 |      },
+   |  ^^^^^^
+45 |    },
+   |  ^^^^
+46 |  };
+   |  ^^
+47 |  </script>
+   |  ^^^^^^^^^
+
+
+ERROR in ./src/Settings.vue
+Module Error (from ./node_modules/vue-loader/dist/index.js):
+
+VueCompilerError: Single file component can contain only one <script> element
+at /Users/mariospliatsikas/commute-prompts-app/src/Settings.vue:30:1
+27 |    // component definition
+28 |  }
+29 |  </script>
+   |            ^
+30 |  <script>
+   |  ^^^^^^^^
+31 |  
+   |  ^
+32 |  export default {
+   |  ^^^^^^^^^^^^^^^^
+33 |    data() {
+   |  ^^^^^^^^^^
+34 |      return {
+   |  ^^^^^^^^^^^^
+35 |        preferenceOption1: false,
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+36 |        preferenceOption2: false,
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+37 |        // Add more data properties for additional preferences
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+38 |      };
+   |  ^^^^^^
+39 |    },
+   |  ^^^^
+40 |    methods: {
+   |  ^^^^^^^^^^^^
+41 |      savePreferences() {
+   |  ^^^^^^^^^^^^^^^^^^^^^^^
+42 |        // Implement logic to save preferences to the backend or local storage
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+43 |        console.log('Preferences saved:', this.preferenceOption1, this.preferenceOption2);
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+44 |      },
+   |  ^^^^^^
+45 |    },
+   |  ^^^^
+46 |  };
+   |  ^^
+47 |  </script>
+   |  ^^^^^^^^^
+ @ ./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=script&lang=js 1:0-38 4:4-12
+ @ ./src/App.vue?vue&type=script&lang=js 1:0-189 1:0-189 1:190-368 1:190-368
+ @ ./src/App.vue 2:0-54 3:0-49 3:0-49 8:49-55
+ @ ./src/main.js 2:0-28 3:10-13
+
+ERROR in [eslint] 
+/Users/mariospliatsikas/commute-prompts-app/src/Settings.vue
+  1:1  error  Component name "Settings" should always be multi-word  vue/multi-word-component-names
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+webpack compiled with 2 error

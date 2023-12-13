@@ -1,0 +1,20 @@
+// prompts.json
+[
+  {
+    "id": 1,
+    "prompt": "Write a short story about a journey through time.",
+    "category": "Writing"
+  },
+  {
+    "id": 2,
+    "prompt": "Create a digital artwork inspired by nature.",
+    "category": "Art"
+  },
+  {
+    "id": 3,
+    "prompt": "Compose a song about overcoming challenges.",
+    "category": "Music"
+  },
+  // Add more prompts as needed
+]
+
